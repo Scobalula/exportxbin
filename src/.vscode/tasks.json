@@ -1,0 +1,44 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: gcc.exe build active file",
+			"command": "C:\\msys64\\mingw64\\bin\\gcc.exe",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+				"${fileDirname}/BinaryFile.c",
+				"${fileDirname}/ExportFile.c",
+				"${fileDirname}/Globals.c",
+				"${fileDirname}/FileSystem.c",
+				"${fileDirname}/Token.c",
+				"${fileDirname}/main.c",
+				"${fileDirname}/MemoryFile.c",
+				"${fileDirname}/FileName.c",
+				"${fileDirname}/Allocator.c",
+				"${fileDirname}/Converter.c",
+				"${fileDirname}/main.res",
+				"-static",
+				"-O2",
+				"-L",
+				"${fileDirname}/library",
+				"-l",
+				"liblz4_static",
+				"-o",
+				"${fileDirname}/bin/exportxbin.exe",
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "compiler: C:\\msys64\\mingw64\\bin\\gcc.exe"
+		}
+	]
+}
