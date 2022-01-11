@@ -1,6 +1,6 @@
 # exportxbin
 
-exportxbin is an enhanced version of export2bin included in the Call of Duty: Black Ops III Mod Tools. It's main goal is to provide users with the ability to convert XMODEL_BIN/XANIM_BIN to and from XMODEL_EXPORT/XANIM_EXPORT.
+exportxbin is an enhanced version of export2bin included in the Call of Duty: Black Ops III Mod Tools. Its main goal is to provide users with the ability to convert XMODEL_BIN/XANIM_BIN to and from XMODEL_EXPORT/XANIM_EXPORT.
 
 Features include:
 
@@ -12,7 +12,7 @@ This was made as a simple learning exercise for me to make something in pure C, 
 
 # Downloading
 
-Simply grab the latest build from the [Releases](https://github.com/Scobalula/exportxbin/releases).
+Simply grab the latest build from the [Releases](https://github.com/Scobalula/exportxbin/releases) page.
 
 # Usage
 
